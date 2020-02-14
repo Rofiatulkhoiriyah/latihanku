@@ -2,4 +2,6 @@
     <string name="app_name">Latihan</string>
     <string name="button">Button</string>
     <string name="hello_world">Hello World</string>
+    <string name="photo">photo</string>
+    <string name="alarm">alarm</string>
 </resources>

@@ -8,12 +8,23 @@
     tools:context=".DetailActivity">
 
     <TextView
+        android:id="@+id/world"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:gravity="center"
+        android:text="@string/hello_world"
         android:textColor="@android:color/black"
-        android:textSize="@dimen/_16ssp"
-        android:text="@string/hello_world"/>
+        android:textSize="@dimen/_16ssp" />
+
+    <EditText
+        android:id="@+id/teks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/world"
+        android:layout_marginStart="28.00dp"
+        android:layout_marginTop="64.00dp"
+        android:layout_marginEnd="28.00dp"
+        android:hint="name"/>
 
 </RelativeLayout>
